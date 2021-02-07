@@ -1,0 +1,21 @@
+  
+<suite name="CRM Application Test Automation" verbose="1" >
+
+<listeners>
+      <listener class-name="com.qa.ExtentReporterListener.ExtentReporterNG"/>
+      
+</listeners>
+
+
+  <test name="CRM test  cases" >
+    <classes>
+       <class name="com.crm.qa.testcases.LoginPageTest" />
+       <class name="com.crm.qa.testcases.HomePageTest" />
+       <class name="com.crm.qa.testcases.ContactsPageTest" />
+       
+       
+    </classes>
+  </test>
+ 
+  
+</suite>
